@@ -21,6 +21,7 @@ public class App {
 		q.poll();
 		//System.out.println(q.poll());
 		System.out.println(q.element());
+		System.out.println(q.size());
 		System.out.println(q);
 	}
 }

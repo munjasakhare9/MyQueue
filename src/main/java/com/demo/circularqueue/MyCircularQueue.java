@@ -64,7 +64,7 @@ public class MyCircularQueue<E> {
 	
 	public E remove() {
 		if(isEmpty()) {
-			throw new QueueEmptyException("NoSuchElementException");
+			throw new QueueEmptyException();
 		}
 		else {
 			E element=arr[front];
